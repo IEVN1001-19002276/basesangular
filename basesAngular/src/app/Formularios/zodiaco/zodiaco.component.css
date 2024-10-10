@@ -1,0 +1,82 @@
+/* Contenedor principal que separa el formulario y el resultado */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  /* Estilos para la columna izquierda (Formulario) */
+  .formulario-izquierda {
+    width: 45%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .fecha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fecha label {
+    margin-right: 10px;
+  }
+  
+  .fecha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .fecha label {
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1b94da;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #117ad5;
+  }
+  
+  
+  .resultado-derecha {
+    width: 45%;
+    text-align: center;
+  }
+  
+  .resultado-derecha h2 {
+    font-weight: normal;
+  }
+  
+  .resultado-derecha p,
+  h3 {
+    margin: 10px 0;
+  }
+  
+  .imagen-signo img {
+    margin-top: 10px;
+  }
